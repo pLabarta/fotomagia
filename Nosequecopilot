@@ -1,0 +1,267 @@
+Synthesizing 10/10 solutions
+
+=======
+Suggestion 1
+
+    gp.arg("--set-config capturemode=0");
+    gp.arg("--set-config capturetarget=0");
+    gp.arg("--set-config imageformat=0");
+    gp.arg("--set-config iso=0");
+    gp.arg("--set-config whitebalance=0");
+    gp.arg("--set-config imagequality=0");
+    gp.arg("--set-config f-number=0");
+    gp.arg("--set-config shutterspeed=0");
+
+=======
+Suggestion 2
+
+    gp.arg("--set-config capturemode=0");
+    gp.arg("--set-config capturetarget=1");
+    gp.arg("--set-config imageformat=0");
+    gp.arg("--set-config iso=3");
+    gp.arg("--set-config whitebalance=0");
+    gp.arg("--set-config f-number=0");
+    gp.arg("--set-config shutterspeed=0");
+    gp.arg("--set-config aperture=0");
+    gp.arg("--set-config imagequality
+
+=======
+Suggestion 3
+
+    gp.arg("--set-config capturemode=0");
+    gp.arg("--filename test.jpg");
+
+    let output =
+
+=======
+Suggestion 4
+
+    gp.arg("--set-config capturemode=0");
+    gp.arg("--set-config whitebalance=1");
+    gp.arg("--set-config iso=1");
+    gp.arg("--set-config imageformat=0");
+    gp.arg("--set-config imageformatcf=0");
+    gp.arg("--set-config f-number=0");
+    gp.arg("--set-config shutterspeed=0");
+    gp.arg("--set-config aperture=0");
+    gp.arg("--set-config imagequality=0");
+    gp.arg("--set-config imagequalitycf=0");
+    gp.arg("--set-config focusmode=0");
+    gp.arg("--set-config focusmodecf=0");
+    gp.arg("--set-config focusmetermode=0");
+    gp.arg("--set-config focusmetermodecf=0");
+    gp.arg("--set-config meteringmode=0");
+    gp.arg("--set-config meteringmodecf=0");
+    gp.arg("--set-config exposurecompensation=0");
+    gp.arg("--set-config exposurecompensationcf=0");
+    gp.arg("--set-config flashmode=0");
+    gp.arg("--set-config flashmodecf=0");
+    gp.arg("--set-config flashcompensation=0");
+    gp.arg("--set-config flashcompensationcf=0");
+    gp.arg("--set-config flashexposurecompensation=0");
+    gp.arg("--set-config flashexposurecompensationcf=0");
+    gp.arg("--set-config bracket=0");
+    gp.arg("--set-config bracketcf=0");
+    gp.arg("--set-config bracketshots=0");
+    gp.arg("--set-config bracketstep=0");
+    gp.arg("--set-config bracketvalue=0");
+    gp.arg("--set-config bracketmode=0");
+    gp.arg("--set-config bracketmodecf=0");
+    gp.arg("--set-config bracketorder=0");
+    gp.arg("--set-config bracketordercf=0");
+    gp.arg("--set-config bracketmode2=0");
+    gp.arg("--set-config bracketmode2cf=0");
+    gp.arg("--set-config bracketorder2=0");
+    gp.arg("--set-config bracketorder2cf=0");
+    gp.arg("--set-config bracketvalue2=0");
+    gp.arg("--set-config bracketvalue2cf=0");
+    gp.arg("--set-config bracketshots2=0");
+    gp.arg("--set-config bracketstep2=0");
+    gp.arg("--set-config bracketmode3=0");
+    gp.arg("--set-config bracketmode3cf=0");
+
+=======
+Suggestion 5
+
+    gp.arg("--set-config capturemode=0");
+    gp.arg("--filename test.jpg");
+    gp.arg("--set-config /main/capturesettings/f-number=6.3");
+    gp.arg("--set-config /main/capturesettings/shutterspeed=1/160");
+    gp.arg("--set-config /main/capturesettings/iso=200");
+    gp.arg("--set-config /main/capturesettings/imagequality=2");
+    gp.arg("--set-config /main/capturesettings/whitebalance=0");
+    gp.arg("--set-config /main/capturesettings/focusmode=0");
+    gp.arg("--set-config /main/capturesettings/colormatrix=0");
+    gp.arg("--set-config /main/capturesettings/colormatrix=0");
+    gp.arg("--set-config /main/capturesettings/colormatrix=0");
+    gp.arg("--set-config /main/capturesettings/colormatrix=0");
+    gp.arg("--set-config /main/capturesettings/colormatrix=0");
+    gp.arg("--set-config /main/capturesettings/colormatrix=0");
+    gp.arg("--set-config /main/capturesettings/colormatrix=0");
+    gp.arg("--set-config /main/capturesettings/colormatrix=0");
+    gp.arg("--set-config /main/capturesettings/colormatrix=0");
+    gp.arg("--set-config /main/capturesettings/colormatrix=0");
+
+=======
+Suggestion 6
+
+    gp.arg("--set-config capturemode=0");
+    gp.arg("--set-config iso=0");
+    gp.arg("--set-config shutterspeed=0");
+    gp.arg("--set-config f-number=0");
+    gp.arg("--set-config imagequality=0");
+    gp.arg("--set-config whitebalance=0");
+    gp.arg("--set-config focusmode=0");
+    gp.arg("--set-config focusmetermode=0");
+    gp.arg("--set-config capturetarget=0");
+    gp.arg("--set-config flashmode=0");
+    gp.arg("--set-config exposurecompensation=0");
+    gp.arg("--set-config imageformat=0");
+    gp.arg("--set-config imageformatsd=0");
+    gp.arg("--set-config imageformatcf=0");
+    gp.arg("--set-config imageformatinternal=0");
+    gp.arg("--set-config imageformats=0");
+    gp.arg("--set-config imageformatsd=0");
+    gp.arg("--set-config imageformatcf=0");
+    gp.arg("--set-config imageformatinternal=0");
+    gp.arg("--set-config imageformats=0");
+    gp.arg("--set-config imageformatsd=0");
+    gp.arg("--set-config imageformatcf=0");
+    gp.arg("--set-config imageformatinternal=0");
+    gp.arg("--set-config imageformats=0");
+    gp.arg("--set-config imageformatsd=0");
+    gp.arg("--set-config imageformatcf=0");
+    gp.arg("--set-config imageformatinternal=0");
+    gp.arg("--set-config imageformats=0");
+    gp.arg("--set-config imageformatsd=0");
+    gp.arg("--set-config imageformatcf=0");
+    gp.arg("--set-config imageformatinternal=0");
+    gp.arg("--set-config imageformats=0");
+    gp.arg("--set-config imageformatsd=0");
+    gp.arg("--set-config imageformatcf=0");
+    gp.arg("--set-config imageformatinternal=0");
+    gp.arg("--set-config imageformats=0");
+    gp.arg("--set-config imageformatsd=0");
+    gp.arg("--set-config imageformatcf=0");
+    gp.arg("--set-config imageformatinternal=0");
+    gp.arg("--set-config imageformats=0");
+    gp.arg("--set-config imageformatsd=0");
+    gp.arg("--set-config imageformatcf=0");
+    gp.arg("--set-config imageformatinternal=0");
+    gp.arg("--set-config imageformats=0");
+
+=======
+Suggestion 7
+
+    gp.arg("--set-config capturemode=0");
+    gp.arg("--set-config viewfinder=0");
+    gp.arg("--set-config imageformat=0");
+    gp.arg("--set-config imageformatsd=0");
+    gp.arg("--set-config imageformatcf=0");
+    gp.arg("--set-config imageformatsd=0");
+    gp.arg("--set-config imageformatcf=0");
+    gp.arg("--set-config iso=0");
+    gp.arg("--set-config capturetarget=1");
+    gp.arg("--set-config imagequality=1");
+    gp.arg("--set-config whitebalance=1");
+    gp.arg("--set-config focusmode=0");
+    gp.arg("--set-config focusmetermode=0");
+    gp.arg("--set-config focusmode=0");
+    gp.arg("--set-config focusmetermode=0");
+    gp.arg("--set-config focusmode=0");
+    gp.arg("--set-config focusmetermode=0");
+    gp.arg("--set-config focusmode=0");
+    gp.arg("--set-config focusmetermode=0");
+    gp.arg("--set-config focusmode=0");
+    gp.arg("--set-config focusmetermode=0");
+    gp.arg("--set-config focusmode=0");
+    gp.arg("--set-config focusmetermode=0");
+    gp.arg("--set-config focusmode=0");
+    gp.arg("--set-config focusmetermode=0");
+    gp.arg("--set-config focusmode=0");
+    gp.arg("--set-config focusmetermode=0");
+    gp.arg("--set-config focusmode=0");
+    gp.arg("--set-config focusmetermode=0");
+    gp.arg("--set-config focusmode=0");
+    gp.arg("--set-config focusmetermode=0");
+    gp.arg("--set-config focusmode=0");
+    gp.arg("--set-config focusmetermode=0");
+
+=======
+Suggestion 8
+
+    gp.arg("--set-config capturemode=0");
+    gp.arg("--set-config whitebalance=1");
+    gp.arg("--set-config iso=0");
+    gp.arg("--set-config shutterspeed=0");
+    gp.arg("--set-config f-number=0");
+    gp.arg("--set-config imageformat=0");
+    gp.arg("--set-config imageformatcf=0");
+    gp.arg("--set-config imageformatsd=0");
+    gp.arg("--set-config imageformatinternal=0");
+    gp.arg("--set-config focusmode=0");
+    gp.arg("--set-config focusmetermode=0");
+    gp.arg("--set-config focusmode=0");
+    gp.arg("--set-config focusmetermode=0");
+    gp.arg("--set-config afarea=0");
+    gp.arg("--set-config afmode=0");
+    gp.arg("--set-config afassist=0");
+    gp.arg("--set-config aeb=0");
+    gp.arg("--set-config aperture=0");
+    gp.arg("--set-config aperturecf=0");
+    gp.arg("--set-config aperturesd=0");
+    gp.arg("--set-config apertureinternal=0");
+    gp.arg("--set-config exposurecompensation=0");
+    gp.arg("--set-config exposurecompensationcf=0");
+    gp.arg("--set-config exposurecompensationsd=0");
+    gp.arg("--set-config exposurecompensationinternal=0");
+    gp.arg("--set-config exposuremetermode=0");
+    gp.arg("--set-config flashmode=0");
+    gp.arg("--set-config flashmodecf=0");
+    gp.arg("--set-config flashmodesd=0");
+    gp.arg("--set-config flashmodeinternal=0");
+    gp.arg("--set-config flashexposurecompensation=0");
+    gp.arg("--set-config flashexposurecompensationcf=0");
+    gp.arg("--set-config flashexposurecompensationsd=0");
+    gp.arg("--set-config flashexposurecompensationinternal=0");
+    gp.arg("--set-config flashexposurelock=0");
+    gp.arg("--set-config flashexposurelockcf=0");
+    gp.arg("--set-config flashexposurelocksd=0");
+    gp.arg("--set-config flashexposurelockinternal=0");
+    gp.arg("--set-config flashexposurebracketing=0");
+    gp.arg("--set-config flashexposurebracketingcf=0");
+    gp.arg("--set-config flashexposurebracketingsd=0");
+
+=======
+Suggestion 9
+
+    gp.arg("--set-config capturemode=0");
+    gp.arg("--filename=images/%Y-%m-%d/%H-%M-%S.%C");
+    gp.arg("--hook-script=src/trigger.py");
+
+=======
+Suggestion 10
+
+    gp.arg("--set-config capturemode=0");
+    gp.arg("--set-config imageformat=0");
+
+    let mut child = gp.spawn()?;
+
+    let status = child.wait()?;
+
+    println!("child status was: {}", status);
+    println!("gp output was: {}", gp.output()?);
+
+    let mut gp = Command::new("gphoto2");
+
+    gp.arg("--capture-image-and-download");
+    gp.arg("--force-overwrite");
+    gp.arg("--set-config capturemode=0");
+    gp.arg("--set-config imageformat=0");
+
+    let mut child = gp.spawn()?;
+
+    let status = child.wait()?;
+
+    println!("child status was: {}", status);
+    println!("gp output was: {}",
